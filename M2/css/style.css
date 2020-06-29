@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(212, 132, 132);
+    background-color: rgb(255, 238, 199);
     font-size: 100%;
     margin: 10px;
     padding: 0;
@@ -7,41 +7,44 @@ body {
 
 h1{
     text-align: center;
+    font-size: 175%;
+    color: rgb(212, 0, 0);
 }
 
-/* Base styles */
+/* base styles */
 *{
     box-sizing: border-box;
 }
   
 .sec{
-    background-color: blue;
-    padding: 10px;
+    background-color: rgb(207, 187, 148);
     margin: 10px;
     float: left;
-    position: relative;
     font-family: Helvetica;
     color: white;
+    border: 1px solid;
+    border-color: black;
 }
 
 .title{
-    background-color: rgb(255, 0, 0);
-    margin: 10px;
+    background-color: rgb(212, 0, 0);
     padding: 10px;
-    width: 100px;
+    width: auto;
     float: right;
-    position: relative;
-    clear: right;
     font-family: Helvetica;
     color: white;
     text-align: center;
+    font-size: 125%;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    border-color: black;
 }
 
 p{
     float: right;
+    color: rgb(255, 255, 255);
     text-align: justify;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin:10px;
 }
 
 /* desktop */
