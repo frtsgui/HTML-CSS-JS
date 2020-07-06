@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(255, 238, 199);
+    font-size: 100%;
+    margin: 0px;
+    padding: 0;
+}
+
+h1{
+    font-size: 275%;
+    color: rgb(212, 0, 0);
+    margin-bottom: 30px;
+}
+
+/* base styles */
+*{
+    box-sizing: border-box;
+}
+
+.title{
+    margin-bottom: 10px;
+    width: auto;
+    float: center;
+    font-family: Helvetica;
+    color: white;
+    text-align: center;
+    font-size: 200%;
+}
+
+p{
+    float: right;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    margin:10px;
+    font-size: 16px;
+}
+
+#header-nav{
+    background-color: rgb(207, 187, 148);
+    border: 1px solid;
+    border-radius: 0;
+}
+
+.navbar{
+    border: 0;
+}
+
+#brand{
+    color: white;
+}
+
+.navbar-nav{
+    background-color: rgb(255, 227, 167);
+    border: 0;
+    text-align: center;
+    font-size: small;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.container{
+    background-color: rgb(207, 187, 148);
+}

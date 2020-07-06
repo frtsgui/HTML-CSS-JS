@@ -21,7 +21,7 @@ h1{
     margin: 10px;
     float: left;
     font-family: Helvetica;
-    color: white;
+    color: rgb(158, 80, 80);
     border: 1px solid;
     border-color: black;
 }
@@ -42,7 +42,7 @@ h1{
 
 p{
     float: right;
-    color: rgb(255, 255, 255);
+    color: rgb(94, 182, 99);
     text-align: justify;
     margin:10px;
 }
